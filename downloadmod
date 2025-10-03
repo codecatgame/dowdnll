@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завантажити моди для Minecraft</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .download-btn {
+            transition: all 0.3s ease;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        .container {
+            background: linear-gradient(135deg, #3b82f6, #1e3a8a);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+    <div class="container max-w-lg w-full rounded-2xl shadow-xl p-8 text-white">
+        <h1 class="text-3xl font-bold text-center mb-4">Завантажити моди для Minecraft 1.20.1</h1>
+        <p class="text-center text-gray-200 mb-6">Останні версії STDrive та залежностей</p>
+        <div class="space-y-4">
+            <div class="flex justify-center">
+                <a href="stdrive-1.0.1-1.20.1-1.0.1.jar" download class="download-btn bg-white text-blue-900 font-semibold py-3 px-6 rounded-lg flex items-center space-x-2 w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                    <span>Завантажити STDrive-1.0.1-1.20.1-1.0.1.jar (~1 МБ)</span>
+                </a>
+            </div>
+            <div class="flex justify-center">
+                <a href="HammerLib-1.20.1-20.1.50.jar" download class="download-btn bg-white text-blue-900 font-semibold py-3 px-6 rounded-lg flex items-center space-x-2 w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                    <span>Завантажити HammerLib-1.20.1-20.1.50.jar (~1 МБ)</span>
+                </a>
+            </div>
+            <div class="flex justify-center">
+                <a href="HammerAnimations-1.20.1-20.1.38.jar" download class="download-btn bg-white text-blue-900 font-semibold py-3 px-6 rounded-lg flex items-center space-x-2 w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                    <span>Завантажити HammerAnimations-1.20.1-20.1.38.jar (~1 МБ)</span>
+                </a>
+            </div>
+        </div>
+        <p class="text-center text-sm text-gray-300 mt-6">Формат файлів: .jar | Для Minecraft 1.20.1</p>
+    </div>
+</body>
+
+</html>
